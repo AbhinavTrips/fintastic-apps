@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Fintastic Apps — Android apps for everyday life</title>
+<meta name="description" content="Fintastic Apps is an independent Android app publisher building useful, delightful mobile apps. We use marketing automation to responsibly grow and improve our own apps." />
+<style>
+  :root{--bg:#0b1020;--card:#141a2e;--ink:#eef2ff;--muted:#9aa6c7;--accent:#6ea8fe;--line:#243056}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px}
+  header{padding:64px 0 32px;text-align:center}
+  .logo{display:inline-flex;align-items:center;gap:12px;font-weight:700;font-size:20px;letter-spacing:.3px}
+  .dot{width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#6ea8fe,#a06eff)}
+  h1{font-size:40px;line-height:1.15;margin:28px 0 12px}
+  .lead{color:var(--muted);font-size:18px;max-width:640px;margin:0 auto}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:40px 0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+  .card h3{margin:0 0 6px;font-size:18px}
+  .card p{margin:0;color:var(--muted);font-size:15px}
+  section{padding:28px 0;border-top:1px solid var(--line)}
+  h2{font-size:24px;margin:0 0 10px}
+  p.muted{color:var(--muted)}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  footer{padding:40px 0 60px;color:var(--muted);font-size:14px;text-align:center;border-top:1px solid var(--line);margin-top:20px}
+  .pill{display:inline-block;padding:4px 12px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:13px;margin-top:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo"><span class="dot"></span> Fintastic Apps</div>
+    <h1>Useful, delightful Android apps.</h1>
+    <p class="lead">Fintastic Apps is an independent mobile app publisher. We design, build, and grow a small portfolio of Android apps that help people in everyday life.</p>
+    <div class="pill">Independent Android publisher</div>
+  </header>
+
+  <section>
+    <h2>Our apps</h2>
+    <div class="grid">
+      <div class="card"><h3>Hello Pandit</h3><p>Guidance and utilities for daily rituals and planning.</p></div>
+      <div class="card"><h3>Hello Pandit — Vaastu</h3><p>Vaastu insights and tools for home and workspace.</p></div>
+      <div class="card"><h3>Word Fighter</h3><p>A fast, fun word game for quick play sessions.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How we grow responsibly</h2>
+    <p class="muted">We operate our own first-party marketing automation to understand app performance and improve return on our advertising. It reads analytics and campaign data from the platforms we already use (Google Analytics, Google AdMob, Google Ads, and others) strictly for our own apps, and manages our own advertising under human-approved safeguards — spend caps, approval gates, and dry-run by default. We do not sell this tooling or process data for third parties.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p class="muted">Business &amp; API inquiries: <a href="mailto:dev.abhinav.tripathi@gmail.com">dev.abhinav.tripathi@gmail.com</a></p>
+  </section>
+
+  <footer>
+    &copy; <span id="y"></span> Fintastic Apps. All rights reserved.
+  </footer>
+</div>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
